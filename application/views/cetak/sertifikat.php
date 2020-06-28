@@ -45,7 +45,6 @@
             $array_bln = array(1 => "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII");
             $bln = $array_bln [date_format($date1, "m")];
             ?>
-
             <div style=" background-image:url('<?= base_url('assets/img/') ?>certificate-bg.png');-webkit-print-color-adjust: exact; background-size: cover; width:800px; height:600px; padding:20px; text-align:center;">
                 <div style="width:750px; height:550px; padding:20px; text-align:center; border: 5px solid #fff">
                     <div style="font-size: 12px;color: #191919;text-align: left;font-weight: 700;">Nomor: <i style="text-decoration: underline;"><?= str_pad($q['no'], 4, '0', STR_PAD_LEFT) ?>/Donasi/<?= $bln ?>/<?= date_format($date1, "y") ?></i></div>

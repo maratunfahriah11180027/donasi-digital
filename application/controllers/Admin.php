@@ -213,7 +213,6 @@ class Admin extends CI_Controller
             redirect('admin/donasi');
         }
     }
-
     public function cetak()
     {
         $this->load->view('cetak/sertifikat');

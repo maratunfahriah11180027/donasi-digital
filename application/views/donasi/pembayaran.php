@@ -12,7 +12,7 @@
     <p class="card-text">
 
       <?php
-      $n =  $this->db->get_where('tbl_transaksi', ['nominal','id_transaksi'])->row_array();
+      $n =  $this->db->get_where('tbl_transaksi', ['nominal'])->row_array();
 
         ?>
     <h4> Anda akan mendonasikan uang sebasar Rp <?= number_format($n['nominal'], 0, ',', '.') ?><br> <br>
