@@ -20,7 +20,7 @@
          <b>Total  Rp<?= number_format($n['nominal'], 0, ',', '.') ?> </b> <hr>
 </h4>
       <h5> Silakan Transfer ke : </h5> <br>
-            <h3> <img src=" <?= base_url('assets/img/logo/bca.png'); ?>" width="100" height="100"> <sup>BCA Virtual Account (1180027190)</sup></h3>
+            <h4> <img src=" <?= base_url('assets/img/logo/bca.png'); ?>" width="100" height="100"> <sup> <b>a/n : AN-NUR  Nomor Rekening  : 11800-27190 </b></sup>  </h4>
 
       </p>
 
